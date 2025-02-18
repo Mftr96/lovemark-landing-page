@@ -1,0 +1,26 @@
+<svg id="Raggruppa_273" data-name="Raggruppa 273" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142.998" height="61.437" viewBox="0 0 142.998 61.437">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_156" data-name="Rettangolo 156" width="142.998" height="61.437" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_143" data-name="Raggruppa 143">
+    <g id="Raggruppa_142" data-name="Raggruppa 142" clip-path="url(#clip-path)">
+      <path id="Tracciato_3" data-name="Tracciato 3" d="M24.59,45.8l-.025,7.35S11.128,53.591,2.9,38.376,4.4-.074,26.011,0A25.8,25.8,0,0,1,43.06,5.985a26.319,26.319,0,0,1,7.452,29.553,32.525,32.525,0,0,1-6.648,10.668C34.2,56.556,27.652,61.436,27.652,61.436l.053-15.625Z" transform="translate(0 0.001)" fill="#fe5000"/>
+    </g>
+  </g>
+  <text id="DIGI" transform="translate(5.056 32.57)" fill="#fff" font-size="18" font-family="Montserrat-Black, Montserrat" font-weight="800"><tspan x="0" y="0">DIGI</tspan></text>
+  <g id="Raggruppa_145" data-name="Raggruppa 145">
+    <g id="Raggruppa_144" data-name="Raggruppa 144" clip-path="url(#clip-path)">
+      <text id="TALKING_" data-name="TALKING " transform="translate(54.641 31.57)" fill="#fe5000" font-size="17" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0" letter-spacing="-0.034em">T</tspan><tspan y="0">ALKING </tspan></text>
+    </g>
+  </g>
+  <text id="PILLS" transform="translate(85.523 48.154)" fill="#2d2926" font-size="17" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0" letter-spacing="-0.009em">P</tspan><tspan y="0">IL</tspan><tspan y="0" letter-spacing="-0.007em">L</tspan><tspan y="0">S</tspan></text>
+  <g id="Raggruppa_147" data-name="Raggruppa 147">
+    <g id="Raggruppa_146" data-name="Raggruppa 146" clip-path="url(#clip-path)">
+      <path id="Tracciato_4" data-name="Tracciato 4" d="M327.447,253.495a1.642,1.642,0,1,1-1.643-1.643,1.643,1.643,0,0,1,1.643,1.643" transform="translate(-270.745 -210.351)" fill="#fe5000"/>
+      <path id="Tracciato_5" data-name="Tracciato 5" d="M398.979,253.495a1.643,1.643,0,1,1-1.643-1.643,1.643,1.643,0,0,1,1.643,1.643" transform="translate(-330.49 -210.351)" fill="#fe5000"/>
+      <path id="Tracciato_6" data-name="Tracciato 6" d="M470.512,253.495a1.642,1.642,0,1,1-1.643-1.643,1.643,1.643,0,0,1,1.643,1.643" transform="translate(-390.236 -210.351)" fill="#fe5000"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+/* GENERAL STYLE */
+*{
+    font-family: 'Karla';
+}
+
+/* EVENT TITLE STYLE */
+.event-title{
+    background-color: #f1f1f1;
+}
+h2{
+    font-size: 3rem;
+}
+.black-title{
+    color: #2d2926;
+}
+.orange-title{
+    color: #FE5000;
+}
+
+
+
+/* EVENT-DETAILS STYLE */
+.event-details{
+    background-color: #FE5000;
+    color: white;
+   
+}
+/* FOOTER STYLE --------------------- */
+footer{
+    background-color: #2d2926;
+    p{
+        color: #AFAFAF;
+    }
+    h4{
+        color:#FFFFFF;
+    }
+    i{   
+        color: #FE5000;
+        background-color:#FFFFFF ;
+        padding: 0.5rem;
+        border-radius: 50%;
+    }
+    .fa-chevron-right{
+        background-color: #FE5000;
+        color: white;
+    }
+}
