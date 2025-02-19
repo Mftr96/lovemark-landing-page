@@ -1,57 +1,82 @@
 /* GENERAL STYLE */
-*{
+* {
     font-family: 'Karla';
 }
 
 /* EVENT TITLE STYLE */
-.event-title{
+.event-title {
     background-color: #f1f1f1;
 }
-h2{
+
+h2 {
     font-size: 3rem;
 }
-.black-title{
+
+.black-title {
     color: #2d2926;
 }
-.orange-title{
+
+.orange-title {
     color: #FE5000;
+}
+
+/* EVENT RELATOR STYLE */
+.swiper {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 3rem;
+}
+.card-text {
+    color: #FE5000;
+    background-color: #ffc5aa;
+    border-radius: 5px;
+
 }
 
 
 
 /* EVENT-DETAILS STYLE */
-.event-details,.cta{
+.event-details,
+.cta {
     background-color: #FE5000;
     color: white;
-    i{   
+
+    i {
         color: #FE5000;
-        background-color:#FFFFFF ;
+        background-color: #FFFFFF;
         padding: 0.5rem;
         border-radius: 50%;
     }
-    img{
+
+    img {
+        object-fit: contain;
         position: relative;
         bottom: 20%;
-        left: 15%;
+        /* left: 15%; */
 
     }
 }
+
 /* FOOTER STYLE --------------------- */
-footer{
+footer {
     background-color: #2d2926;
-    p{
+
+    p {
         color: #AFAFAF;
     }
-    h4{
-        color:#FFFFFF;
+
+    h4 {
+        color: #FFFFFF;
     }
-    i{   
+
+    i {
         color: #FE5000;
-        background-color:#FFFFFF ;
+        background-color: #FFFFFF;
         padding: 0.5rem;
         border-radius: 50%;
     }
-    .fa-chevron-right{
+
+    .fa-chevron-right {
         background-color: #FE5000;
         color: white;
     }
