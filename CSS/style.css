@@ -20,10 +20,21 @@ h2{
 
 
 /* EVENT-DETAILS STYLE */
-.event-details{
+.event-details,.cta{
     background-color: #FE5000;
     color: white;
-   
+    i{   
+        color: #FE5000;
+        background-color:#FFFFFF ;
+        padding: 0.5rem;
+        border-radius: 50%;
+    }
+    img{
+        position: relative;
+        bottom: 20%;
+        left: 15%;
+
+    }
 }
 /* FOOTER STYLE --------------------- */
 footer{
