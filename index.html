@@ -177,7 +177,6 @@
             <!-- MOBILE CARDS (CAROUSEL) -->
             <div class="swiper d-lg-none">
                 <div class="swiper-wrapper swiper-container">
-                    <!-- Slides -->
                     <div class="swiper-slide ">
                         <div class="d-flex justify-content-center">
                             <img src="/assets/Ellisse 11.svg" class="card-img-top w-50" alt="...">
@@ -274,59 +273,69 @@
                     </div>
                     <div class="subscribe d-flex  align-items-center  ">
                         <i class="fa-solid  fa-chevron-right me-3"></i>
-                        <button data-bs-toggle="modal" data-bs-target="#exampleModalCentered">iscriviti alla
-                            newsletter</button>
+                        <button id="my-btn">iscriviti alla newsletter</button>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <div class="modal" id="exampleModalCentered" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="container">
-                    <div class="row justify-content-between border border-info">
-                        <div class="col-2 justify-content-center">
-                            <img class="" src="/assets/Raggruppa 273.svg" alt="">
-                        </div>
-                        <div class="col-8">
-                            <h5>INSERIRE TITOLO FORM</h5>
-                            <p>Lorem ipsum dolor sit amet. consectetur adipiscing elit- Praesent cursus lacus vitae
-                                mauris tristique tempor- Interdum et malesuada</p>
-                        </div>
-                    </div>
-                    <!-- NEWSLETTER FORM -->
-                    <form action="saveForm.php" method="post">
-                        <div class="row ">
-                            <div class="col-2">
-                                <label for="nome">nome</label>
-                                <input name="nome" type="text" required>
-                            </div>
-                            <div class="col-2">
-                                <input type="text">
-                            </div>
-                            <div class="col-2">
-                                <input type="text">
-                            </div>
-                            <div class="col-2">
-                                <input type="text">
-                            </div>
-                            <div class="col-2">
-                                <input type="text">
-                            </div>
-                        </div>
-                    </form>
-
-            
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-
+    <!-- MODAL -->
+    <div class="my-modal container-fluid ">
+        <div class="modal-card border border-info container">
+            <div class="row border border-warning justify-content-between ">
+                <div class="col-lg-2 justify-content-center">
+                    <img class="" src="/assets/Raggruppa 273.svg" alt="">
+                </div>
+                <div class="col-lg-10">
+                    <h5>INSERIRE TITOLO FORM</h5>
+                    <p>Lorem ipsum dolor sit amet. consectetur adipiscing elit- Praesent cursus lacus vitae
+                        mauris tristique tempor- Interdum et malesuada</p>
                 </div>
             </div>
+            <form id="my-form" method="POST" action="/save_form.php">
+                <div class="row py-2 border border-success justify-content-between  ">
+                    <div class="col-lg-2 d-flex flex-column ">
+                        <label for="nome">Nome <span style="color:red">*</span></label>
+                        <input class="" name="nome" type="text" required>
+                    </div>
+                    <div class="col-lg-2 d-flex flex-column ">
+                        <label for="cognome">Cognome <span style="color:red">*</span></label>
+                        <input class="" name="cognome" type="text" required>
+                    </div>
+                    <div class="col-lg-2 d-flex flex-column ">
+                        <label for="mail">Mail <span style="color:red">*</span></label>
+                        <input class="" name="mail" type="email" required>
+                    </div>
+                    <div class="col-lg-2 d-flex flex-column ">
+                        <label for="azienda">Azienda <span style="color:red">*</span></label>
+                        <input class="" name="azienda" type="text" required>
+                    </div>
+                    <div class="col-lg-2 d-flex flex-column ">
+                        <label for="ruolo">Ruolo</label>
+                        <input class="" name="ruolo" type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-7 border border-warning d-flex justify-content-center align-content-center ">
+                        <input class="" type="checkbox" name="" id="">
+                        <p class="text-center p-0 m-0">
+                            Lorem ipsum dolor sit amet. consectetur adipiscing elit Praesent cursus lacus vitae
+                            mauris tristique tempor. Interdum et malesuada fames ac ante ipsum primis in
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <button class="w-100" type="submit">ISCRIVITI ORA</button>    
+
+                    </div>
+                </div>
+            </form>
+
+            <button class="close">CHIUDI</button>
+
         </div>
+
     </div>
+
     <script src="/JS/script.js"></script>
 </body>
 

@@ -108,3 +108,38 @@ footer {
         color: white;
     }
 }
+
+/* MODAL STYLE */
+
+.my-modal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+}
+.open {
+    opacity: 1;
+    height: 100vh;
+}
+
+.modal.open .close {
+    opacity: 1;
+}
