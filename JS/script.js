@@ -1,3 +1,9 @@
+window.onload = function() {
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.has('success')) {
+      alert('Form inviato con successo!');
+  }
+}
 const swiper = new Swiper('.swiper', {
   slidesPerView: 1,
   direction: 'horizontal',
