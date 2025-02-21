@@ -26,8 +26,28 @@
 </head>
 
 <body>
+    <!-- EVENT -->
+     <section class="event container-fluid">
+        <div class="container">
+            <div class="row  flex-column flex-lg-row">
+                <div class="col-lg-6">
+                    <div class="py-5">
+                        <img src="/assets/Raggruppa 272.svg" alt="">
+                    </div>
+                    <h1>INSERIRE TITOLO EVENTO </h1>
+                    <h2>DATA E LUOGO</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sit est cum. Ut ea veniam tenetur, qui reprehenderit neque corrupti earum, sed culpa at laboriosam non omnis quis dolore provident.</p>
+
+                </div>
+                <div class="col-lg-6">
+                    <img class="object-fit-cover img-fluid" src="/assets/Forme3D_CUSTOM-SOLUTIONS_Lovemark_2022_v5@2x.png" alt="">
+
+                </div>
+            </div>
+        </div>
+     </section>
     <!-- EVENT DETAILS -->
-    <div class="event-details container-fluid pt-5">
+    <section class="event-details container-fluid pt-5">
         <div class="container">
             <h4>DETTAGLI EVENTO</h4>
             <!-- da provare ad inserire il continua a leggere per mobile  -->
@@ -56,9 +76,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- AGENDA -->
-    <div class=" agenda container-fluid">
+    <section class=" agenda container-fluid">
         <div class="container">
             <div class="row flex-column flex-lg-row my-5 ">
                 <div class="col-lg-6">
@@ -102,9 +122,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!--EVENT TITLE  -->
-    <div class="event-title container-fluid">
+    <section class="event-title container-fluid">
         <div class="container  ">
             <div class="d-flex flex-column-reverse flex-lg-column align-items-center ">
                 <div class="d-flex justify-content-center align-items-center">
@@ -128,9 +148,9 @@
                 <p class="m-0 ">inserire CTA</p>
             </div>
         </div>
-    </div>
+    </section>
     <!-- EVENT RELATOR -->
-    <div class="event-relator container-fluid">
+    <section class="event-relator container-fluid">
         <div class="container d-flex flex-column align-content-center ">
             <h3 class="text-center">RELATORI EVENTO</h3>
             <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus neque quis
@@ -212,10 +232,10 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- CALL TO ACTION  -->
-    <div class="cta container-fluid">
+    <section class="cta container-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 ">
@@ -239,7 +259,7 @@
             </div>
 
         </div>
-    </div>
+    </section>
 
     <!-- FOOTER -->
     <footer class="container-fluid ps-5">
@@ -281,43 +301,43 @@
     </footer>
     <!-- MODAL -->
     <div class="my-modal container-fluid ">
-        <div class="modal-card border border-info container">
-            <div class="row border border-warning justify-content-between ">
-                <div class="col-lg-2 justify-content-center">
+        <div class="modal-card container">
+            <div class="row justify-content-between ">
+                <div class="col-lg-4 justify-content-center">
                     <img class="" src="/assets/Raggruppa 273.svg" alt="">
                 </div>
-                <div class="col-lg-10">
+                <div class="col-lg-8  ">
                     <h5>INSERIRE TITOLO FORM</h5>
-                    <p>Lorem ipsum dolor sit amet. consectetur adipiscing elit- Praesent cursus lacus vitae
-                        mauris tristique tempor- Interdum et malesuada</p>
+                    <p class="">Lorem ipsum dolor sit amet. <br> consectetur adipiscing elit- <br> Praesent cursus lacus vitae
+                        mauris <br> tristique tempor- Interdum et malesuada</p>
                 </div>
             </div>
             <form id="my-form" action="http://localhost/lovemark-landing-page/php/save_form.php" method="POST" >
-                <div class="row py-2 border border-success justify-content-between  ">
-                    <div class="col-lg-2 d-flex flex-column ">
+                <div class="row py-2  justify-content-between  ">
+                    <div class="col-lg-2 py-1 d-flex flex-column ">
                         <label for="nome">Nome <span style="color:red">*</span></label>
                         <input class="" name="nome" type="text" required>
                     </div>
-                    <div class="col-lg-2 d-flex flex-column ">
+                    <div class="col-lg-2 py-1 d-flex flex-column ">
                         <label for="cognome">Cognome <span style="color:red">*</span></label>
                         <input class="" name="cognome" type="text" required>
                     </div>
-                    <div class="col-lg-2 d-flex flex-column ">
+                    <div class="col-lg-2 py-1 d-flex flex-column ">
                         <label for="mail">Mail <span style="color:red">*</span></label>
                         <input class="" name="mail" type="email" required>
                     </div>
-                    <div class="col-lg-2 d-flex flex-column ">
+                    <div class="col-lg-2 py-1 d-flex flex-column ">
                         <label for="azienda">Azienda <span style="color:red">*</span></label>
                         <input class="" name="azienda" type="text" required>
                     </div>
-                    <div class="col-lg-2 d-flex flex-column ">
+                    <div class="col-lg-2 py-2 d-flex flex-column ">
                         <label for="ruolo">Ruolo</label>
                         <input class="" name="ruolo" type="text">
                     </div>
                 </div>
                 <div class="row ">
-                    <div class="col-7 border border-warning d-flex justify-content-center align-content-center ">
-                        <input class="" type="checkbox" name="" id="">
+                    <div class="col-7  d-flex justify-content-center align-content-center ">
+                        <input class="" type="checkbox" name="informativa" id="" required>
                         <p class="text-center p-0 m-0">
                             Lorem ipsum dolor sit amet. consectetur adipiscing elit Praesent cursus lacus vitae
                             mauris tristique tempor. Interdum et malesuada fames ac ante ipsum primis in
@@ -330,7 +350,7 @@
                 </div>
             </form>
 
-            <button class="close">CHIUDI</button>
+            <button id="close">CHIUDI</button>
 
         </div>
 

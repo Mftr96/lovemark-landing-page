@@ -7,10 +7,10 @@ window.onload = function() {
 const swiper = new Swiper('.swiper', {
   slidesPerView: 1,
   direction: 'horizontal',
-  //   loop: true,
-  //   autoplay:{
-  //     delay:5000,
-  //   },
+  loop: true,
+  autoplay:{
+    delay:5000,
+  },
   pagination: {
     el: '.swiper-pagination',
     dinamicBullet: true,
@@ -32,19 +32,9 @@ btnModal.onclick=()=>{
   });
 };
 
-
-//FORM POST METHOD
-let postingForm=async ()=>{
-  console.log("ciao form");
-  const {data} = await axios.post('http://127.0.0.1:5500/save_form.php', document.querySelector('#my-form'), {
-    headers: {
-      'Content-Type': 'application/json',
-    }
-  })
-  .then(response=>{
-    console.log(response);
-  })
-
+closeModal.onclick=()=>{
+  console.log("Close");
+  document.querySelector(".my-modal").classList.remove("open");
+  document.querySelector(".modal-card").classList.remove("open");
 
 }
-

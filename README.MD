@@ -1,9 +1,6 @@
 # TITOLO
 
 
-
-
-
 ## Indice
 
 1. [consegna](#consegna)

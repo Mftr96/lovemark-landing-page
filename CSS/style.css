@@ -2,7 +2,10 @@
 * {
     font-family: 'Karla';
 }
-
+/* EVENT STYLE */
+.event{
+    background-color:#f1f1f1;
+}
 
 /* EVENT-DETAILS STYLE */
 .event-details,
@@ -113,11 +116,13 @@ footer {
 
 .my-modal {
     position: absolute;
+    margin: 0 auto;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    bottom:0;
+    top:25%;
     left: 0;
     width: 100%;
     height: 0;
@@ -126,20 +131,26 @@ footer {
 }
 
 .modal-card {
+    width: 390px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
     padding: 2rem;
-    border-radius: 25px;
     margin-bottom: 2rem;
 }
 .open {
     opacity: 1;
-    height: 100vh;
+    height: 100%;
 }
 
 .modal.open .close {
     opacity: 1;
+}
+@media screen and (min-width: 900px) {
+.modal-card{
+    width: 700px;
+}
+
 }
