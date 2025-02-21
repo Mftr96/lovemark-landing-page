@@ -31,7 +31,7 @@ individuate le seguenti sezioni sono andato a farmi uno schema generale di come 
 
 Dopo aver delineato la struttura in generale delle sezioni del sito, ho iniziato a lavorare su una sezione per volta.
 
-Per quanto riguarda il form si segnala che al momento è indicato un percorso assoluto nell'action.   
+ 
 
 ## Roadmap
 
